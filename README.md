@@ -1,15 +1,42 @@
-# OpenZeppelin-Ethernaut-Levels-Progress
+# OpenZeppelin Ethernaut Levels Progress
 
 ## Project Overview
-This repository contains comprehensive documentation, solutions, and security analyses for each level of the Ethernaut game by OpenZeppelin. Each level focuses on a unique vulnerability within smart contracts, providing a deep dive into the nuances of security in Ethereum development.
+This repository provides an in-depth exploration of security vulnerabilities in smart contracts, presented through solutions for each level of OpenZeppelin's Ethernaut game. Each level represents a unique challenge in Ethereum development, highlighting potential security risks and best practices for mitigating them. The repository includes comprehensive documentation, code solutions, and detailed analyses, showcasing not only the vulnerabilities but also strategies for robust contract security.
+
+Through this project, I aim to demonstrate expertise in identifying and resolving security issues in Solidity contracts, which is essential for safeguarding decentralized applications.
 
 ## Repository Structure
-- Each level has its own directory with:
-  - A smart contract for the challenge
-  - Documentation on the solution, including found vulnerabilities and the approach taken
-  - Additional reports or insights
+- **Challenge Contracts**: Each level includes the challenge contract code.
+- **Solution Documentation**: A detailed explanation of vulnerabilities found and the solution approach.
+- **Security Analysis**: Additional insights and recommendations for best practices in Solidity security.
+
+---
 
 ## Levels
-- [Level 1: Introduction to Smart Contract Security](./Level-1)
-- [Level 2: Basic Overflow Vulnerability](./Level-2)
-- [Level 3: Delegatecall Exploit](./Level-3)
+- **[Level 1: Hello Ethernaut - Introduction to Smart Contract Security](./Level-1)**
+  - *Objective*: Introduce basic principles of smart contract security and demonstrate secure coding practices.
+  - *Description*: This level covers fundamental access control mechanisms, emphasizing the importance of secure initialization.
+
+- **[Level 2: Fallback Function Exploit](./Level-2)**
+  - *Objective*: Exploit fallback functions to understand their role in contract security.
+  - *Description*: Demonstrates how poorly implemented fallback functions can lead to unauthorized control and fund extraction.
+
+- **[Level 3: Delegatecall Vulnerability - Ownership Takeover](./Level-3)**
+  - *Objective*: Manipulate delegatecall to seize control of the contract.
+  - *Description*: Explores the risks of `delegatecall` when improperly secured, emphasizing the necessity of cautious use in contracts with sensitive state data.
+
+- **[Level 4: Gas Limit Manipulation - Denial of Service (DoS)](./Level-4)**
+  - *Objective*: Defend against gas-based denial-of-service attacks.
+  - *Description*: Highlights the criticality of gas considerations in Solidity, showcasing how attackers can exploit gas limits to disrupt contract functionality.
+---
+
+## How to Use This Repository
+1. **Clone the Repository**: `git clone <repository-url>`
+2. **Navigate to Each Level**: Each folder contains a `README.md` with instructions for understanding the vulnerability and the solution applied.
+3. **Run Tests**: The provided solutions can be tested in a Solidity environment like Remix or using a local setup with Hardhat.
+
+## About the Author
+**Volodymyr Statsenko** is an aspiring expert in blockchain security, with a deep commitment to mastering **smart contract auditing** and **secure dApp development**. This portfolio exemplifies a rigorous approach to security, highlighting a structured, analytical methodology in tackling complex vulnerabilities. My ultimate goal is to bring world-class security standards to the blockchain ecosystem, contributing to a safer, more secure decentralized future.
+
+## License
+This repository is open-sourced under the MIT License.
