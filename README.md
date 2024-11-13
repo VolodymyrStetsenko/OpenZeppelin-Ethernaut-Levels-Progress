@@ -28,6 +28,15 @@ Through this project, I aim to demonstrate expertise in identifying and resolvin
 - **[Level 4: Coin Flip - Predictable Randomness Exploit](https://github.com/VolodymyrStetsenko/OpenZeppelin-Ethernaut-Levels-Progress/tree/207e98f5aed70277f0d48cb36feffd6142fca79e/Level-4_CoinFlip)**
   - *Objective*: Exploit a predictable randomness source to secure consecutive wins in a coin flip game.
   - *Description*: Highlights the risks of using block data as a source of randomness, demonstrating how attackers can predict outcomes and consistently win by using the block hash and the same calculation logic as the contract.
+ 
+  - **[Level 5: Telephone - tx.origin Vulnerability Exploit](./Level-5_Telephone)**
+  - *Objective*: Exploit the vulnerability by manipulating `tx.origin` to gain unauthorized ownership.
+  - *Description*: Demonstrates the danger of using `tx.origin` in place of `msg.sender`, allowing for phishing-style attacks that bypass ownership restrictions.
+
+- **[Level 6: Token - Integer Overflow Exploit](./Level-6_Token)**
+  - *Objective*: Exploit an integer overflow vulnerability to manipulate token balance.
+  - *Description*: This level illustrates how unchecked arithmetic can cause overflow, allowing attackers to increase their token balance by manipulating the `transfer` function without restriction.
+ 
 ---
 
 ## How to Use This Repository
