@@ -22,12 +22,12 @@ Through this project, I aim to demonstrate expertise in identifying and resolvin
   - *Description*: Demonstrates how poorly implemented fallback functions can lead to unauthorized control and fund extraction.
 
 - **[Level 3: Delegatecall Vulnerability - Ownership Takeover](./Level-3)**
-  - *Objective*: Manipulate delegatecall to seize control of the contract.
+  - *Objective*: Manipulate `delegatecall` to seize control of the contract.
   - *Description*: Explores the risks of `delegatecall` when improperly secured, emphasizing the necessity of cautious use in contracts with sensitive state data.
 
-- **[Level 4: Gas Limit Manipulation - Denial of Service (DoS)](./Level-4)**
-  - *Objective*: Defend against gas-based denial-of-service attacks.
-  - *Description*: Highlights the criticality of gas considerations in Solidity, showcasing how attackers can exploit gas limits to disrupt contract functionality.
+- **[Level 4: Coin Flip - Predictable Randomness Exploit](./Level-4)**
+  - *Objective*: Exploit a predictable randomness source to secure consecutive wins in a coin flip game.
+  - *Description*: Highlights the risks of using block data as a source of randomness, demonstrating how attackers can predict outcomes and consistently win by using the block hash and the same calculation logic as the contract.
 ---
 
 ## How to Use This Repository
