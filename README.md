@@ -29,7 +29,7 @@ Through this project, I aim to demonstrate expertise in identifying and resolvin
   - *Objective*: Exploit a predictable randomness source to secure consecutive wins in a coin flip game.
   - *Description*: Highlights the risks of using block data as a source of randomness, demonstrating how attackers can predict outcomes and consistently win by using the block hash and the same calculation logic as the contract.
  
-  - **[Level 5: Telephone - tx.origin Vulnerability Exploit](./Level-5_Telephone)**
+- **[Level 5: Telephone - tx.origin Vulnerability Exploit](./Level-5_Telephone)**
   - *Objective*: Exploit the vulnerability by manipulating `tx.origin` to gain unauthorized ownership.
   - *Description*: Demonstrates the danger of using `tx.origin` in place of `msg.sender`, allowing for phishing-style attacks that bypass ownership restrictions.
 
