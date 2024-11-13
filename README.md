@@ -25,7 +25,7 @@ Through this project, I aim to demonstrate expertise in identifying and resolvin
   - *Objective*: Manipulate `delegatecall` to seize control of the contract.
   - *Description*: Explores the risks of `delegatecall` when improperly secured, emphasizing the necessity of cautious use in contracts with sensitive state data.
 
-- **[Level 4: Coin Flip - Predictable Randomness Exploit](./Level-4)**
+- **[Level 4: Coin Flip - Predictable Randomness Exploit](https://github.com/VolodymyrStetsenko/OpenZeppelin-Ethernaut-Levels-Progress/tree/207e98f5aed70277f0d48cb36feffd6142fca79e/Level-4_CoinFlip)**
   - *Objective*: Exploit a predictable randomness source to secure consecutive wins in a coin flip game.
   - *Description*: Highlights the risks of using block data as a source of randomness, demonstrating how attackers can predict outcomes and consistently win by using the block hash and the same calculation logic as the contract.
 ---
